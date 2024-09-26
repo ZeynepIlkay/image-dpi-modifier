@@ -15,11 +15,12 @@
   text-align: center;
   width: 350px;
   max-width: 100%;
+  border: 2px solid #382195; /* Kartın kenarlarına renk ekliyoruz */
 }
 
 .title {
   font-size: 1.5rem;
-  color: #333;
+  color: #382195; /* Başlık rengi */
   margin-bottom: 20px;
 }
 
@@ -58,7 +59,7 @@
 }
 
 .save-button {
-  background-color: #4CAF50;
+  background-color: #56449f;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -70,5 +71,5 @@
 }
 
 .save-button:hover {
-  background-color: #45a049;
+  background-color: #382195;
 }
